@@ -1,0 +1,82 @@
+# Q&A Chatbot
+
+![Q&A Chatbot Banner](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxETEBAREhMQFRAQFRAWExASGBcSFRUVGBUYFhUYFhUYHyggGRolHRMTIjIhJSkrLi4uFx8zOD8tNyguLisBCgoKDg0OGxAQGi4mICUtLi8tLTItMS8tLyswLS0tLS0tLS0tKy0tLS0tLS0tLS81LS0tLS8tLS0tKystLS0tLf/AABEIAKMBNgMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAgMEBQYBB//EAEQQAAIBAgIGBwQHBgUEAwAAAAABAgMRBCEFEhMxUWEGFEFSkaHRFTJx0iJTVIGisbIWQnKSwfAzNGKC4QdzwvEXIyT/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAQUCAwQG/8QAMxEBAAIBAgQBCwQCAwEAAAAAAAECAxESBCExUQUTFDJBYXGBkaHB0SJSsfAj8TNC4RX/2gAMAwEAAhEDEQA/AMg7XmQAAAAAAAAkBLZvg/ABs3wfgA2b4PwAbN8H4ANm+D8AGzfB+AEWgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFlCaTzAv28eJA9jVTyuBMDyUrZsCG3jxAbePECitNN5EisAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEoRu7AW9W5gOrcwPYYezTvuIF4EakLqwFPVuYFM42diRmaI0ZPEVVThl2yk90Y9rfoY2tFY1bcOK2W22HdYTophYKzg6ku2U2/yVkjROS0ranBYqxzjVkfs7hPqYefqRvt3Z+a4f2wfs7hPqYefqN9u55rh/bCFTo9hPqYefqN9u55rh/bCv2BhfqYefqN9u55rh/bB7Awv1MPP1G+3c81w/thGp0dwjVtklzi5J/mN9u6J4TDP/VyfSHQLw9pxblSk7Xe+L4St+f8Ab3UvuVvE8LOLnHOGlNjkexjd2Av6tz8iA6tz8gHVufkA6tz8gIVaNle5IqAAAAAAAAAAAAAAAAAPYys7oC3rD4IB1h8EA6w+CAdYfBAOsPggHWHwQFUpXdwO5/6f0lsas/3pVNVvlGMWv1s583VbeHxGyZ9rqTUsHjAq6wu7U/lYFVatuyqWV7rV3gQ2/wDpn/KyULISur2a+KsBIDB03SUsNXi/q5v74rWXmkZVnnDVnruxWj2PnFDCznfVV7dna+SXEm3F4q3imvVWU8Pz2pN9vT5z7oVJnS4lm3lyAbeXIBt5cgG3lyAjOo3vAgAAAAAAAAAAAAAAAAAAAAAAAAAAHd9BZWwtV8Ks/wBEDny+kt+AnTFPv+0N11uXIw0dW+VeJ0mqcdacoRjxeX3LizC96UjW06Q2Y65MlttI1lgU+leHbttIrnKM4rxasc1eO4eZ03fSY+zqtwPFVjXZ/E/dsJ4ttJ/Rs9zR1xo4ZtMcpQ6zLkTob5Osy5DQ3ydZlyGhvlHFVG6Fe/ZTqfoZhk9CfdLZinW0e9o+jOGjez95xco85Zf0uVfDRE5OfwWObWKMbpFoW96tNfSz14Lt4tLjxXb8d9vhy6fpsoeN4PX/ACY+vrj7uXOtTgAAAAAAAAAAAAAAAAAAAAAAAAAAShBvcAnBreBEDbvCwlCOSTcYu6Vs7eZRedZMeW3PWNZ5T73qfMMObBX9MRMxHOO+n1dJ0Lg1haye9VZ/oplna8X0tHSYV/C47Y6WpbrE/aGzIbnEY/ExrYyUasrUoOpGK/hy+ilvbeZQ5ZtxGeY9Uax9vrL0mGK8LwsTHW2k/f6Q1WKpRjJxhONRZ+4m5c7x3prK/C64mm3B5Y6Q6KcdhtHOdJbzojpB6zot3g03D/S1vS5PPLkdnh2W1bzht/qXB4rgpbHGevx9sOrLhQoVZ6qcnuRMRrOjG1tsayxPaUe7LyNvkZc/nVe0vamk4unVhqyvOMop5WV4tZ+JjbBMxMatlONpWddJaunUlHVaspRtZrsaK+PDMkTrFods+L4pjSaz9GXjNJVJrJRjO2cs83x5HVPCZLdZiO+nVzz4jjrE7azM+rXo56ei5ttuUbttvedtabYiIU99b2m09ZeeyZd6PmTox2nsmXej5jQ2nsmXej5jQ2nsmXej5jQ2sbF4N07Xad77uX/siYRMaMcMQAAAAAAAAAAAAAAAAAAALsPUSumAxFROyQFIHQQVoxXBL8jzGSdbzPtl7jDXbjrHaI/h0vRpf/nq85y/RAsODmZp8XFxVYi0zHr/ANJ4qpZW7Wd9I1lXZbaRo4OnTgsU41JSg3OajONspN5Xv2NXX3o87SZx8ReJ7z/L1d6Rm4Sk17RP05t5i9Dwpwg9o46m0k6l4a30nrT1k42tdR7MtVHdN5j9U6c1dXHFv0xrr+Wj0BNdYpyhfVvNq++2rLfzOLhIm3GR75/iVh4j/j4K0doiPrDvIu6vxL95iJ15qsb/AIc/gZU9KGvN/wAcuaxqq/R2bS33vblbevidatjT1sbUxXeh+H0CeRqYrvQ/D6A5Gpiu9D8PoDkamK70Pw+gORqYrvQ/D6A5Gpiu9D8PoDkamK70Pw+gOSVOGJuryja6v7u6+fYEckdN7ofGX9DGWuzVEMAAAAAAAAAAAAAAAAAAAAAACVON2lxaXizG9ttZt2Z46b7xXvMR83QVDy8Pcui6M/5ap/HL9MCz4P0J9/4cHFdfgY1Zr7ywoqs3qcxp7R+u1Vhm4uLmo5uyeUkl8LFX4jw+loz1+MfddeD8Z+meHt8PxP2ZPSLDurh5zptyTipWWd0vpXXgcusTGsO7BOzLEWa7orhLfTla9rRXa+2TS4ZWv8To8MwzN7Zp6dI+/wDfe5PHOJjSMEdes/aPv8nYUsor4FpPVTV5VYGLxrd4pWXbff4dhupj05uPLxEzrWIaHSsKb1NpKS961lfhfs+Buc0asDZYbv1PD/gMua3D4GhNtRnNtK+5L+gRrK/2LDvT8vQG49iw70/L0BuPYsO9Py9Abj2LDvT8vQG49iw70/L0BuSp6IgmnrSyafZ2O/AI3I6b3Q+Mv6GMtdmqIYAAAAAAAAAAAAAAAF0KF1e+8CXVuZA8eG5gUEgAAytGwvUjyu/D/lo5OOvtwz7eSw8Mx7+Jr7Of9+OjbV3kUEPVy6Pov/lqn8cv0wLPg/Qn3/hwcV1+CvT2CnWw1elTko1KkJxjN3sm1bO2fad1Z0lX3rujR8x0V0P0lhK8atLYa0d8VNqM49sZJxV0/wDk25K0y12y0Y73xX1h9CxV5UXem3Jq+x1lG8u7Kaytfe/z3FVPA3tO2ei4jxHHWN0dXFaJ6KY+ekKeLr7KMYzvLVle0UmlCEUslbK3AtI2Y6bKqmZvmvN7vpZpb1GMp3hLK7Sy4/cZ0nSWrNTdSeXNpamE1ra1O9t143/NHVujur9l+0oezo2b2Sst71Ml8ciN1e6YpefVPyRo06ab1VBPt1bbvuMfLY/3R84T5DL+2flKdSai7SaT32k7O33mcWiejXaJrOluSO3h3oeKJ1Y6wbeHeh4oamsG3h3oeKGprBt4d6HihqawbeHeh4oamsNdpipF6lmnbW3O/AxljZrCGAAAAAAAAAAAAAAABZGs0rAe7eXIDx15AVgAAG10NSylLjkvu3/3yKjxLJraKdub0PguHStsk+vlHw/v0ZGKluRWwupdF0SnfDVuVWS/BTLfBTbjr7eapyZd97+ydPlEffVnm9peSinvRMToiYieqCoR4IndLHZXslPcYskAAACVX/Ar/wAFT9DMMvoT7pbsPpR72k6P4aKqU4ySd73/AIrO3nYqMGk5Y1WmXWKTo86V4DWp7RL6dK9+ce3w3+Jc4L6W2z61H4hh3498dY/hyB2KMAAAAAAAAAAAAAAAAAAAAAAAZXs6r3fOPqToy2yezqvd84+o0Nsns6r3fOPqNDbJ7Oq93zj6jQ2yezqvd84+o0Nst1RpKMYxXYvPtKPLwnEZLzea9fbH5enwcZwuHHXHFukdp+PqY1WjNtu3mjGOBz/t+sflnPiPD/u+k/hu+jFeNHD1IVHacqkpLJu6cYK+XNMtppadOWnyVGHLTHFotbXWdddJ59PYzvaFLveUvQeTt2Z+cY+/8rKOLhJ2i7vhZr8yJpaOrKmalp0iVxg2ozCGkr9JMNTgp1JOF51oKFnKT2VSVOTtG+V4PPmZVrNujG1or1ZGD0zRrKlKlLXjVlKF1lqyUJTaknmnaPmiJiY6prMWjWGwISYj/L4j/t1P0MxvGsTDZjtt59nEYTSzVm3JNNWlbtWe/iV/mV9f0TEz7JdE+JYoj/JW0R7Y6tji+k7le0U21Z8H4+h2Rgz26zEfWfw48niPD1jSsTb38o/P0c4WCikJQAW0qN1cCNWFmBAAAAAAAAAAAAAAAAAAIDd6Sxs6erq05VNbWva+VrcE+PkZt8RqwvbNX7NP8XyhO2O57Zq/Zp/i+UG2O57Zq/Zp/i+UG2O57Zq/Zp/i+UG2O57Zq/Zp/i+UG2O57Zq/Zp/i+UG2O57Zq/Zp/i+UG2O6dHS1Vyinh5pNpN/SyTdr+6DSO7o9Ff4i+DNeX0W7hv8Akbo5VixsXXtkt/a+BnWurVkvpyh8grTo14Yqvt1FwdSVGnKLbqqdapOyd/o+9f8A3Z2N8a10jRptttrMz2Z3R3G0MLXw6VfXVbZN6sWlCpKFSGq18akVxzMZibdYZaxTpL6lSqXXPtNNo0bq23QjjMQo0pxebqJxS5NWb8zk4rLGOntl2cLjm9vc1uktCR2Divfiozjb4XaX3XRHCUjFbWfWx8Qjy+KYj1c4+H/jlercy0eZOrcwK6tKxIrAtpVrKwEas7sCAAAAAAAAAAAAAAAAAAQG60pCq9XZVIQ97W1na+61snz8TNvjT1sDZYv7RS/mXyhOsGyxf2il/MvlBrBssX9opfzL5QawbLF/aKX8y+UGsGyxf2il/MvlBrCUcNjHurU2uTv/AOINYe9Uxv10P7/2g1hOjhcWpRcqsHFNay4q+a93gDWG9wlfUmpWvvyMb13RoyxX2W1buhiYT9158Hk/A5bVmvVY0y1v0lotOaXpYeG1qt5uyirOUn22TfYs3wSN0R6nNM+t8+xWl8I68qtONNQkrbGpShKF7K71VUWd878zZprCNdJX6F0hhqDniqkFOFScVTcKdJRpzWs/oRdRuOSea4GOnqTPd9F0Vi4VFGpTkpQmnZrlvT4NNNNcma7xybMc/qNJ4epnONmorNPha915lZxeC2TSarXhc1aRMW6EdO03CGt78YqLtZ3tue8mnlNsRNJ19zG2fBEzPlK6e/8ADm67jrS1fdbdlwXAs6Taaxujm81minlJ2TrHqYc67TayM2tVOo3vJEQAAAAAAAAAAAAAAAAAAAAEBvdIaOhW1dfW+jrW1bLfa+9ckZt8ToxP2do8anivQJ3Sfs7R41PFegN0n7O0eNTxXoDdJ+ztHjU8V6A3Sfs7R41PFegN0thg8LGnBQjeyvvzebuGMzquAAZGApKc0nus3kYZLTEaw24aRe+kt3SpRirRSXwOWZmeqyrWK8ohwWlcKsTW0jJ2lHC0alCirZxqSpuVWXxzgvTt6Kzyhy2jSdHylM2Na3R0XKtShd2lVpq3ZdySvbjmQyfYtAxVHSGIwysqdWHWaUErarctStnzk07dhqv6Lbi9J0mKxSUJUkrzqrVtuspK3jmV3EZ4p+iOsrPhsO79U9Gg03o1UYwzW9xfC9rrN79zN/BxausWnVXeK1rMVvWNPU1G0XFeJ2qc148UA148UB45x4oDEZI8AAAAAAAAAAAAAAAAAAACW0fF+LCdTaS4vxYNTaS4vxYNTaS4vxYNTaS4vxYNTaS4vxYG9oVNaEXxS8e085m30yWrrPKe72PDTTLhrfSOcdvX63S9HoJ4eo2k3ryzef7sTt4O0zSdZ9f4aOKpWLco9TI2a4LwR2ay4tI7PVFLckDSHpCWAtF0oqqoprbTnObcpSvKatL3m7LJZKyXYZxaWu1Ilxv/AMZYVfv4l/76fyG3yrT5KYXYD/pxhqdSnVU8RenOE0pSg03GSkrpQ3XXEicqYxTPV1vUae0jVs9pCMoJ60rasmm7xvZ7lm0aptMt8ViOjDxlKpGo6qjrQTUm1+7bN35Zbyr4jDaMm+I1WXD5qzj2zOinpHj6NWlU1ZK94yiu298/Js7cOT/JyiflLg42tZwTzj5w5EsHnwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA22i53p27rfnn/VlH4jXTLr3h6fwi+7Bt7TP5dl0XjehNcakv0xNnB+hPv8Aw38V6XwbPqkeL8js1cmyDqkeL8hqbIOqR4vyGpshCphFxfkNTZCvqq4sao2QdVXFjU2QdVXFjU2QqxtJKhXWedOp+hk16wxyRpjt7p/h856suLOp586uuLAdXXFgUVI2diREAAAAAAAAAAAAAAAAAAACQGT1dcWQHV1xYDq64sB1dcWA6uuLAdXXFgOrriwMzR0La2/s/qVficcqz7/svfBLc7x7vu6/onXWrUp9qesuaaSfhZeJq4O0aTVZ8VXnEt+drlAAGsx9CbndXays+GXkBlIlD0ABgacxChh6rfbFxXNyVl6/cZUjWzRxN4ritPw+b5w67OpQvNtLj+QDbS4/kBBsDwAAAAAAAAAAAAAAAAAAAAEtd8X4gThGTzu/EgS2U+PmwGynx82B7CnK6u8viBZKtFSUHKKnJXUW1drku0Gk9UwNlh8O1Hm82ef4viPK5OXSOn5et8O4TyGLn6U85/Hw/lkYbWhJTjJqS3Nf3uOet5rOsO61YtGkt/S6QK304O67lmn9z3HdXjY0/VDltws+qVa6V0e5W8I/MZ+d07T/AH4sPN7d4TXSij3KvhH5h55TtP8AfiebW7wS6RUn+7V8I/MPPadp/vxPNrd4Y8ulFFNrVq5co/Md1KTasW6aqvJxuOl5rznTt0/lH9qqPcreEfmMvJS1/wD0Mfafp+Xk+lVK2UKrfB6sV4pv8h5KSfEKeqJ+jn9KaTqV5Jysor3YLcvV8zbWsVV+bPbLOs/JrXh1zMml51dcWBjNEgAAAAAAAAAAAAAAAAAAAAAAAthWaVsgPesvggHWXwQB4q2btZb2DRw+IdTGYmbjqpJN605KEKdKG+U5P3Ut75smZisO/Fin0YbKeNxmBnBTlSrU25arUtrBuEtWcVPKSlF5NPdwNdojLSaxOjZ5KMWSt5iJ05+x02iummGq2U26M+FT3PuqLLxsUubw/LTnXnHs6/L/AGvMPiGK/K3Kfb+XSRkmk0009zWafwZwTGjuegahqza4M2MFkWEo4zE6scvee7lzOrg+H8rfWekf3RX+I8X5DHpX0p6ez2/hrdtLj+RfPKG2lx/IBtpcfyAbaXH8gG2lx/IDzbS4gQAAAAAAAAAAAAAAAAAAAAAAAAAAABpelGN1KWzXvVcnygt/ju8SYbsNdZ1aHQmlHh6kp6rlGpTnTqRUnCThK19WazjJNJp8iL13Q7cd9s6srpJp7rLhGMJQpU3VklObqScqktaTcnuXYl2LyilNrLLk39GlM2pm6M0vXoP/AOqpKK7Yb4P4xeX37zVlwY8vpx+W3FnyYvQn8Ow0V0+i7RxFPVf1lP6Ufvg819zZWZvDJjnjn4T+f9LPD4nE8skae2P7+XRxr0q8dpRnCaW/Vd3963p8mV1qXxzpeNFhXJTJGtJ1VSqKKbfYZUxze0Vqxy5a4qTe3SGuqTcm297PQ4sUY6RWHj+Iz2zZJvb/AFHZkYdK1+0zaVWISvkSKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABy2nKalXnrZ21Us3krJ/wBWS6cc6VYHVocPNhs1k6tDh5sGsnVocPNg1k6tDh5sGsnVocPNg1lZQhqSU4OUZrdKMpRfimRaItGlo1hNb2rOtZ0l1uj8XOrRpzqPWk9e7slezst3bbtOfFhpjyW2x2TxfEZMuOm+deq86HA9UmtzA8bAAAAAAAAAAAAAAAAAAAAB/9k=) <!-- Replace with your banner image URL -->
+
+
+## Overview
+
+This Q&A chatbot is built using [LangChain](https://langchain.com) and [Streamlit](https://streamlit.io). It allows users to engage in conversational interactions with OpenAI's language models, providing answers to a wide range of questions while maintaining context throughout the conversation.
+
+## Features
+
+- **Contextual Conversations**: The chatbot keeps track of the conversation history, allowing for more relevant and coherent responses.
+- **Model Selection**: Users can choose from different OpenAI models (e.g., GPT-3.5-turbo, GPT-4).
+- **Dynamic Temperature Control**: Adjust the creativity of responses with a temperature slider.
+- **Save and Load Conversations**: Users can save their conversation history to a JSON file and load it back later.
+- **User-Friendly Interface**: Built with Streamlit for a seamless user experience.
+
+## Requirements
+
+To run this application, ensure you have the following installed:
+
+- Python 3.x
+- [Streamlit](https://streamlit.io/)
+- [LangChain](https://langchain.com)
+- [OpenAI](https://openai.com/api/)
+
+## Installation
+
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/neginmhg/langchain-qa-chatbot.git
+   cd langchain-qa-chatbot
+   ```
+
+2. Install the required packages using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Set your OpenAI API key in your environment variables. You can do this by creating a `.env` file in the root of the project and adding:
+   ```plaintext
+   OPENAI_API_KEY=your_openai_api_key
+   ```
+
+4. Run the application:
+   ```bash
+   streamlit run app.py
+   ```
+
+## Usage
+
+1. Open the application in your web browser (usually at `http://localhost:8501`).
+2. Enter your question in the input field.
+3. Select the desired OpenAI model and adjust the temperature for response variability.
+4. Click the **"Ask"** button to receive a response.
+5. To save your conversation history, click the **"Save Conversation"** button. This will create a `conversation_history.json` file in your project directory.
+6. You can reload the saved conversation history anytime.
+
+## Example Interaction
+
+Here's a quick example of how a user might interact with the chatbot:
+
+- **User**: What is the capital of Spain?
+- **AI**: The capital of Spain is Madrid.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and create a pull request. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## Acknowledgments
+
+- [OpenAI](https://openai.com/) for their powerful language models.
+- [LangChain](https://langchain.com) for providing the framework to easily interact with language models.
+- [Streamlit](https://streamlit.io/) for creating an interactive web application with minimal effort.
+
+## Contact
+
+For any questions or feedback, feel free to reach out at [negin_mahrang@yahoo.com](mailto:negin_mahrang@yahoo.com).
+
+
+**Happy Chatting! 🤖**
